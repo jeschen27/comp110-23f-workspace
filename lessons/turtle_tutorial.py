@@ -5,14 +5,14 @@ colormode(255)
 bob: Turtle = Turtle()
 
 bob.penup()
-bob.goto(-160,0)
+bob.goto(-160, 0)
 bob.pendown()
 
 bob.fillcolor("pink")
 bob.speed(50)
 
 bob.begin_fill()
-side_length: int = 300
+side_length: float = 300
 i = 0
 while (i < 3):
     bob.forward(side_length)
